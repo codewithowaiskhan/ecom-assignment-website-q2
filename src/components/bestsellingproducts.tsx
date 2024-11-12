@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 function BestSellingProducts() {
   return (
     <div className="w-full flex justify-center items-center mt-16">
@@ -85,5 +86,4 @@ function BestSellingProducts() {
     </div>
   );
 }
-
 export default BestSellingProducts;

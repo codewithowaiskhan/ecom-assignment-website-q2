@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 function BrowseByCategory() {
   return (
     <div className="w-full sm:h-full md:h-[300px] flex justify-center items-center mt-16">
@@ -62,5 +63,4 @@ function BrowseByCategory() {
     </div>
   );
 }
-
 export default BrowseByCategory;

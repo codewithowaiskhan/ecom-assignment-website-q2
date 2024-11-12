@@ -126,5 +126,4 @@ function FlashSale() {
     </main>
   );
 }
-
 export default FlashSale;

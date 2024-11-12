@@ -56,5 +56,4 @@ function SecondHero() {
     </div>
   );
 }
-
 export default SecondHero;

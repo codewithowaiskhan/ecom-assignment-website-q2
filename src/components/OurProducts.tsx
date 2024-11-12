@@ -1,6 +1,6 @@
 import React from "react";
-
 import Image from "next/image";
+
 function OurProducts() {
   return (
     <div className="w-full h-[300px] flex justify-center items-center mt-16">
@@ -150,5 +150,4 @@ function OurProducts() {
     </div>
   );
 }
-
 export default OurProducts;
