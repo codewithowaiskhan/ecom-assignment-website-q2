@@ -2,31 +2,31 @@ import React from "react";
 import Image from "next/image";
 function BestSellingProducts() {
   return (
-    <div className="w-full sm:h-full md:h-[300px] flex justify-center items-center mt-16">
-      <div className="sm:w-full md:w-full lg:w-[80%] w-[80%] h-full">
+    <div className="w-full flex justify-center items-center mt-16">
+      <div className="w-[80%] h-full">
         {/* top */}
-        <div className="sm:pl-5 md:pl-0">
+        <div>
           <span className="border-l-8 border-red-500 border-e-4 border-b-4 border-t-4 rounded-sm"></span>
           <span className="ml-2 text-red-500 text-sm font-bold">
             This Month
           </span>
           <div className="flex">
             <h2 className="mt-5 font-bold text-3xl">Best Selling Products</h2>
-            <button className="py-2 px-8 bg-red-500 text-white ml-[600px] rounded-md text-md sm:hidden md:block">
+            <button className="py-2 px-8 bg-red-500 text-white ml-[600px] rounded-md text-md">
               View All
             </button>
           </div>
         </div>
         {/* products */}
         {/* containers boxes */}
-        <div className="sm:gap-y-5 md:gap-y-0 flex sm:flex-col md:flex-row sm:items-center justify-between mt-10">
+        <div className="flex justify-between mt-10">
           <div>
             <div className="w-[200px] h-[150px] bg-gray-200 flex justify-center items-center">
               <Image
                 src={"/bestsellingproducts/images/Bag.png"}
                 width={150}
                 height={100}
-                alt="gaming"
+                alt="Bag"
               ></Image>
             </div>
             {/* title */}
@@ -41,7 +41,7 @@ function BestSellingProducts() {
                 src={"/bestsellingproducts/images/BookSelf.png"}
                 width={115}
                 height={100}
-                alt="gaming"
+                alt="BookSelf"
               ></Image>
             </div>
             {/* title */}
@@ -56,7 +56,7 @@ function BestSellingProducts() {
                 src={"/bestsellingproducts/images/coat.png"}
                 width={130}
                 height={100}
-                alt="gaming"
+                alt="coat"
               ></Image>
             </div>
             {/* title */}
@@ -71,7 +71,7 @@ function BestSellingProducts() {
                 src={"/bestsellingproducts/images/CpuCooler.png"}
                 width={150}
                 height={100}
-                alt="gaming"
+                alt="CpuCooler"
               ></Image>
             </div>
             {/* title */}
@@ -81,10 +81,6 @@ function BestSellingProducts() {
             </div>
           </div>
         </div>
-        {/* button */}
-        <button className="py-2 px-8 bg-red-500 text-white md:ml-[600px] rounded-md text-md sm:block md:hidden sm:mt-10 sm:ml-[37%]">
-          View All
-        </button>
       </div>
     </div>
   );

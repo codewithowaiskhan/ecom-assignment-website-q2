@@ -6,7 +6,7 @@ function OurProducts() {
     <div className="w-full h-[300px] flex justify-center items-center mt-16">
       <div className="w-[80%] h-full">
         {/* top */}
-        <div className="sm:pl-5 md:pl-0">
+        <div>
           <span className="border-l-8 border-red-500 border-e-4 border-b-4 border-t-4 rounded-sm"></span>
           <span className="ml-2 text-red-500 text-sm font-bold">
             Our Products

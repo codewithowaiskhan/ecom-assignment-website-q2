@@ -77,7 +77,7 @@ function FlashSale() {
                   src={"/flashsale/images/Keyboard.png"}
                   width={150}
                   height={100}
-                  alt="gaming"
+                  alt="Keyboard"
                 ></Image>
               </div>
               {/* title */}
@@ -92,7 +92,7 @@ function FlashSale() {
                   src={"/flashsale/images/Lcd.png"}
                   width={150}
                   height={100}
-                  alt="gaming"
+                  alt="Lcd"
                 ></Image>
               </div>
               {/* title */}
@@ -107,7 +107,7 @@ function FlashSale() {
                   src={"/flashsale/images/Chair.png"}
                   width={150}
                   height={100}
-                  alt="gaming"
+                  alt="Chair"
                 ></Image>
               </div>
               {/* title */}

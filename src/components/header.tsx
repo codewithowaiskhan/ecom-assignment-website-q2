@@ -3,8 +3,8 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="w-full sm:h-[90px] md:h-[80px] flex justify-center items-center border-b-2">
-      <div className="h-full sm:flex-col md:flex-row items-center w-[80%] flex justify-between ">
+    <div className="w-full h-[80px] flex justify-center items-center border-b-2">
+      <div className="h-full items-center w-[80%] flex justify-between ">
         {/* left */}
         <div>
           {/* logo */}
@@ -12,7 +12,7 @@ function Header() {
         </div>
         {/* right */}
         <div>
-          <ul className="flex gap-x-5 mr-4 sm:mb-4 md:mb-0">
+          <ul className="flex gap-x-5 mr-4">
             <li>
               <Link className="hover:underline" href={"/"}>
                 Home
