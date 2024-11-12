@@ -26,7 +26,9 @@ function Hero() {
         {/* left */}
         <div className="mt-12 text-white">
           <div className="flex justify-center items-center">
-            <span>{" "}<FontAwesomeIcon icon={faApple} className="w-[30px]" />{" "}
+            <span>
+              {" "}
+              <FontAwesomeIcon icon={faApple} className="w-[30px]" />{" "}
             </span>
             <span className="ml-4">iPhone 14 Series</span>
           </div>

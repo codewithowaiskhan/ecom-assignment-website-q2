@@ -12,42 +12,47 @@ function FlashSale() {
             <div className="flex">
               <h2 className="mt-5 font-bold text-4xl">Flash Sales</h2>
               <ul className="flex gap-5 ml-11 mt-1">
-      {/* Days */}
-      <li className="flex flex-col items-center">
-        <span className="text-sm">Days</span>
-        <div className="flex">
-        <span className="text-3xl font-bold ml-10">03</span>
-        <span className="text-2xl font-bold text-red-600 ml-4">:</span>
-        </div>
-      </li>
-      
-      {/* Hours */}
-      <li className="flex flex-col items-center">
-        <span className="text-sm">Hourse</span>
-        <div className="flex">
-          <span className="text-3xl font-bold ml-5">23</span>
-          <span className="text-2xl text-red-600 ml-4 font-bold">:</span>
-        </div>
-      </li>
-      
-      {/* Minutes */}
-      <li className="flex flex-col items-center">
-        <span className="text-sm">Minutes</span>
-        <div className="flex">
-          <span className="text-3xl font-bold ml-5">19</span>
-          <span className="text-2xl text-red-600 ml-4 font-bold">:</span>
-        </div>
-      </li>
-      
-      {/* Seconds */}
-      <li className="flex flex-col items-center">
-        <span className="text-sm">Seconds</span>
-        <span className="text-3xl font-bold">56</span>
-      </li>
-    </ul>
-          
-        </div>
-        </div>
+                {/* Days */}
+                <li className="flex flex-col items-center">
+                  <span className="text-sm">Days</span>
+                  <div className="flex">
+                    <span className="text-3xl font-bold ml-10">03</span>
+                    <span className="text-2xl font-bold text-red-600 ml-4">
+                      :
+                    </span>
+                  </div>
+                </li>
+
+                {/* Hours */}
+                <li className="flex flex-col items-center">
+                  <span className="text-sm">Hourse</span>
+                  <div className="flex">
+                    <span className="text-3xl font-bold ml-5">23</span>
+                    <span className="text-2xl text-red-600 ml-4 font-bold">
+                      :
+                    </span>
+                  </div>
+                </li>
+
+                {/* Minutes */}
+                <li className="flex flex-col items-center">
+                  <span className="text-sm">Minutes</span>
+                  <div className="flex">
+                    <span className="text-3xl font-bold ml-5">19</span>
+                    <span className="text-2xl text-red-600 ml-4 font-bold">
+                      :
+                    </span>
+                  </div>
+                </li>
+
+                {/* Seconds */}
+                <li className="flex flex-col items-center">
+                  <span className="text-sm">Seconds</span>
+                  <span className="text-3xl font-bold">56</span>
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* products */}
           {/* containers boxes */}
           <div className="sm:gap-y-5 md:gap-y-0 flex sm:flex-col md:flex-row sm:items-center justify-between mt-7">
